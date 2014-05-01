@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>How to manage translations</title>
+
+		<meta name="description" content="A WordCamp Switzerland 2014 Presentation">
+		<meta name="author" content="Ulrich Pogson">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/wcch14.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+			<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section class="main-slide" data-background-image="img/main.jpg" data-background-size="contain">
+					<h1>How to manage translations</h1>
+					<h3>Ulrich Pogson</h3>
+				</section>
+				<section class="i18n" data-background-color="#ffffff">
+					<h2>Internationalisation i18n</h2>
+					<ul>
+						<li><a href="http://make.wordpress.org/docs/theme-developer-handbook/theme-functionality/internationalization/">Theme Developer Handbook</a></li>
+						<li><a href="https://make.wordpress.org/docs/plugin-developer-handbook/15-internationalization/">Plugin Developer Handbook</a></li>
+					</ul>
+					<img src="img/globe_flags.png"/>
+				</section>
+				<section class="i18n-best-practice" data-background-image="img/follow.jpg" data-background-size="contain">
+					<h2>!important</h2>
+					<p>
+						Always follow i18n <a href="http://make.wordpress.org/docs/theme-developer-handbook/theme-functionality/internationalization/">best practices</a>
+					</p>
+				</section>
+				<section class="making-pots" data-background-image="img/pots.jpg" data-background-size="contain">
+					<h2>Making POTs</h2>
+					<p>Localization – l10n</p>
+					<ul>
+						<li><a href="http://make.wordpress.org/docs/plugin-developer-handbook/15-internationalization/localization/">Plugin Developer Handbook</a></li>
+						<li> <a href="https://make.wordpress.org/docs/theme-developer-handbook/theme-functionality/localization/">Theme Developer Handbook</a></li>
+					</ul>
+					<p>Tools</p>
+					<ul>
+						<li><a href="http://wordpress.org/plugins/piglatin/">PigLatin</a></li>
+						<li><a href="https://www.npmjs.org/package/grunt-checktextdomain">grunt-checktextdomain</a></li>
+						<li> <a href="https://www.npmjs.org/package/grunt-wp-i18n">grunt-wp-i18n</a></li>
+					</ul>
+				</section>
+				<section class="email-translations">
+					<h2>Managing Translations by Email</h2>
+					<p>Emailing translation files</p>
+					<ul>
+						<li>Unable to track progress and changes</li>
+						<li>No proofreading/validation by other translators</li>
+						<li>No collaboration between translators</li>
+						<li>Install extra software</li>
+						<li>No shared translation database</li>
+					</ul>
+				</section>
+				<section class="online-management" data-state="not-center" data-background-image="img/transifex.jpg" data-background-size="contain">
+				</section>
+				<section class="services-list" data-background-image="img/colaboration.jpg" data-background-size="contain">
+					<h2>Online Translation Management</h2>
+					<ul>
+						<li><a href="https://webtranslateit.com/en"><img src="img/webtranslateit-logo.png"/></a> <a href="https://webtranslateit.com/en/projects/public">CyberChimps</a></li>
+						<li><a href="https://www.transifex.com/"><img src="img/transifex-logo.png"/></a> <a href="https://www.transifex.com/projects/p/woocommerce/">WooCommerce</a></li>
+						<li><a href="http://blog.glotpress.org/"><img src="img/glotpress-logo.png"/></a> <a href="http://translate.wordpress.org/projects">WordPress.org</a> &amp; <a href="http://translate.yoast.com/projects/wordpress-seo">Yoast SEO</a></li>
+						<li><a href="https://poeditor.com/"><img src="img/poeditor-logo.png"/></a> <a href="https://poeditor.com/join/project?hash=89c71f27c21eb2790c2882291f242ea1">Catch Themes</a></li>
+						<li><a href="http://translate.google.com/toolkit/"><img src="img/google-logo.png"/> Translator Toolkit</a></li>
+						<li><a href="https://crowdin.net/"><img src="img/crowdin-logo.png"/></a></li>
+					</ul>
+				</section>
+				<section class="wp-translations" data-background-color="rgba( 255, 255, 255, 0.6 )">
+					<h2><a href="http://wp-translations.org/"><img src="img/wp-translations-logo.png"/></a></h2>
+					<img src="img/wp-translation.jpg"/>
+				</section>
+				<section class="validation" data-background-image="img/validation.jpg" data-background-size="contain">
+					<ul>
+						<li><a href="http://make.wordpress.org/polyglots/handbook/about/teams/">File names - Locale</a></li>
+						<li>HTML tags</li>
+						<li>Variables</li>
+						<li>Spaces</li>
+						<li>Track changes</li>
+						<li>Google Translate</li>
+					</ul>
+				</section>
+				<section class="update" data-background-image="img/update.jpg" data-background-size="contain">
+					<h2>Update</h2>
+					<div>
+						<ul>
+							<li><a href="http://wp-translations.org/workflow-using-github/">Transifex</a> / <a href="http://ulrich.pogson.ch/update-translations-quickly">WebTranslateIt</a></li>
+							<li><a href="https://gist.github.com/grappler/10187003">Gist: Grunt l10n</a></li>
+							<li><a href="http://poedit.net/">Poedit</a></li>
+							<li>Localization - <a href="http://make.wordpress.org/docs/plugin-developer-handbook/15-internationalization/localization/">Plugin</a> / <a href="https://make.wordpress.org/docs/theme-developer-handbook/theme-functionality/localization/">Theme</a></li>
+						</ul>
+					</div>
+				</section>
+				<section class="questions" data-background-color="rgba( 255, 255, 255, 0.2 )">
+					<h2>Questions?</h2>
+					<p><a href="https://twitter.com/grapplerulrich">@grapplerulrich</a> // <a href="http://ulrich.pogson.ch/">ulrich.pogson.ch</a> // <a href="mailto:ulrich@pogson.ch">ulrich@pogson.ch</a></p>
+				</section>
+			</div>
+
+		</div><!-- .reveal -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				touch: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+					// Interpret Markdown in <section> elements
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+					// Syntax highlight for <code> elements
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+					// Zoom in and out with Alt+click
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+
+					// Speaker notes
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+
+					// Remote control your reveal.js presentation using a touch device
+					//{ src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

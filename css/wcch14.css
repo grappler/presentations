@@ -1,0 +1,155 @@
+.reveal section a:not(img) {
+	text-decoration: underline!important;
+}
+
+.reveal .intro img,
+.reveal .i18n img,
+.reveal h2 img,
+.reveal section ul img {
+	margin: 0;
+	padding: 5px;
+	border: 0;
+	vertical-align: middle;
+	background: none;
+}
+
+.reveal .intro img,
+.reveal section ul img {
+	max-height: 50px;
+}
+
+.reveal .i18n img {
+	max-height: 300px;
+	float: right;
+}
+
+.reveal section.i18n-best-practice p,
+.reveal section.intro p {
+	text-align: center;
+}
+
+.reveal section p {
+	text-align: left;
+}
+
+.reveal section ul {
+	display: block;
+}
+
+.reveal .making-pots,
+.reveal .validation,
+.reveal .i18n h2,
+.reveal .online-management h2,
+.reveal .making-pots h2 {
+	color: #000000;
+}
+
+.reveal .i18n-best-practice h2 {
+	color: #CC3232;
+}
+
+.reveal section.validation {
+	margin-top: 25%;
+	padding: 10px;
+}
+
+.reveal .making-pots {
+	background: rgba( 255, 255, 255, 0.6 );
+}
+
+.reveal .validation {
+	background: rgba( 255, 255, 255, 0.9 );
+}
+
+.reveal .update div {
+	background: rgba( 255, 255, 255, 0.8 );
+	color: #1c1e20;
+}
+
+.reveal section.update ul {
+	margin-top: 48%;
+}
+
+.navigate-up,
+.navigate-down {
+	display: none;
+}
+
+.reveal section a:not(img) {
+	text-decoration: underline!important;
+}
+
+.reveal .intro img,
+.reveal .i18n img,
+.reveal h2 img,
+.reveal section ul img {
+	margin: 0;
+	padding: 5px;
+	border: 0;
+	vertical-align: middle;
+	background: none;
+}
+
+.reveal .intro img,
+.reveal section ul img {
+	max-height: 50px;
+}
+
+.reveal .i18n img {
+	max-height: 300px;
+	float: right;
+}
+
+.reveal section.i18n-best-practice p,
+.reveal section.intro p,
+.reveal section.questions p {
+	text-align: center;
+}
+
+.reveal section p {
+	text-align: left;
+}
+
+.reveal section ul {
+	display: block;
+}
+
+.reveal .making-pots,
+.reveal .validation,
+.reveal .i18n h2,
+.reveal .online-management h2,
+.reveal .making-pots h2 {
+	color: #000000;
+}
+
+.reveal .intro,
+.reveal .intro h2 {
+	color: #1c1e20;
+}
+
+.reveal .i18n-best-practice h2 {
+	color: #CC3232;
+}
+
+.reveal section.validation {
+	margin-top: 25%;
+	padding: 10px;
+}
+
+.reveal .making-pots {
+	background: rgba( 255, 255, 255, 0.6 );
+}
+
+.reveal .validation.
+.reveal .update div {
+	background: rgba( 255, 255, 255, 0.9 );
+}
+
+.reveal section.update ul {
+	margin-top: 48%;
+}
+
+.navigate-up,
+.navigate-down {
+	display: none;
+}
